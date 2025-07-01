@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro-Speech: Your AI Speaking Coach</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+      /* High Contrast Mode Styles */
+      .high-contrast {
+          background-color: #000 !important;
+      }
+      .high-contrast main, .high-contrast footer, .high-contrast div, .high-contrast button, .high-contrast select, .high-contrast input {
+          background-color: #000 !important;
+          background-image: none !important;
+          border-color: #fff !important;
+          color: #fff !important;
+      }
+      .high-contrast p, .high-contrast h1, .high-contrast h2, .high-contrast h3, .high-contrast span {
+          color: #fff !important;
+          background-image: none !important;
+      }
+       .high-contrast button:hover, .high-contrast select:hover, .high-contrast input:hover {
+          background-color: #111 !important;
+      }
+      .high-contrast button:disabled {
+          background-color: #333 !important;
+          color: #888 !important;
+          border-color: #888 !important;
+      }
+      .high-contrast svg {
+          color: #fff !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.7.0",
+    "@vercel/node": "https://esm.sh/@vercel/node@^5.3.0"
+  }
+}
+</script>
+<!-- Charting library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,2 +1,14 @@
-# ProSpeech
-An interactive web app that acts as a live professional speaking coach. Features user accounts, personalized exercises, real-time feedback, and streak tracking to encourage consistent practice. Includes a landing page and a guide to get started.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
